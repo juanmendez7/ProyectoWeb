@@ -65,8 +65,7 @@ const Seccionvideos = () =>{
               <div className="minijuegos">EL CAMBIO CLIMATICO</div>
               <div className="rectangle" />
               <p className="texto-primerjueg">
-              El cuento trata sobre cómo la contaminación atrapa el calor del sol en la atmósfera, causando problemas como escasez de agua, alimentos y eventos climáticos extremos. La "Comunidad Climática", que incluye bosques, ríos, mares, montañas y la atmósfera, se reúne para abordar estos problemas y nos enseña la importancia de proteger nuestro planeta.
-              </p>
+              Sabías que...El cambio climático es  el incremento a largo plazo de la temperatura promedio de la atmósfera, y que se da por el exceso de gases de efecto invernadero provocado por diferentes actividades que realizamos los seres humanos, diariamente. Mira todo el video y aprende sobre el cambio climático y cómo con acciones sencillas podemos ayudar a nuestro planeta.              </p>
             </div>
             <img className="imagen-primerjuego" />
           </div>
@@ -76,13 +75,13 @@ const Seccionvideos = () =>{
             </div>
             <img className="imagen-tercerjuego" />
             <div className="texto-tercerjuego-wrapper">
-              <p className="texto-tercerjuego">
+              <p className="texto-segundojuego">
                 <a href="http://www.strangeloopgames.com/eco/" rel="noopener noreferrer" target="_blank">
                   <span className="span"></span>
                 </a>
                 <span className="text-wrapper-3">
 
-Serie de animación educativa que tiene por protagonista a Darwin, una curiosa y preguntona ranita de Darwin. En cada capítulo, nuestro anfitrión aprenderá sobre distintos temas, que amenazan la vida y ponen en peligro el medio ambiente, además de entregar recomendaciones y consejos para enfrentar situaciones de catástrofe y los nuevos desafíos que surgen a raíz del cambio climático.
+                Serie de animación educativa que tiene por protagonista a Darwin, una curiosa y preguntona ranita de Darwin. En cada capítulo, nuestro anfitrión aprenderá sobre distintos temas, que amenazan la vida y ponen en peligro el medio ambiente, además de entregar recomendaciones y consejos para enfrentar situaciones de catástrofe y los nuevos desafíos que surgen a raíz del cambio climático.
                 </span>
               </p>
             </div>
@@ -95,10 +94,10 @@ Serie de animación educativa que tiene por protagonista a Darwin, una curiosa y
           <img className="nios-jugando" />
           <p className="derechos-reservados">@2023 EcoEDVentures. All rights reserved</p>
           <div className="texto-segundojuego-wrapper">
-            <p className="texto-segundojuego">
+            <p className="texto-tercerjuego">
             En este vídeo vamos a tratar el cambio climático, ¿cuales son los riesgos del cambio climático?, ¿Cuales son los cambios que se están produciendo en nuestro planeta a causa del cambio climático? ¿como podemos tratar el cambio climático?. Así con este vídeo también se pueden resolver las dudas sobre el efecto invernadero, ¿en que consiste el Efecto invernadero? ¿Cuales son las causas del efecto invernadero? y sobre el deshielo, ¿por que se produce el deshielo ártico? ¿que podemos hacer para ralentizar el deshielo de los polos?.
-            </p>
-          </div>
+            </p> </div>
+
           <p className="texto-minijuegos">
           Videos visuales que explican la problemática del cambio climático de manera cautivadora..
           </p>
@@ -107,8 +106,9 @@ Serie de animación educativa que tiene por protagonista a Darwin, una curiosa y
             <div className="rectangle-2" />
             <div className="text-wrapper-4">Inicio</div>
           </div>
+          </div>
         </div>
-      </div>
+
     )
 }
 
