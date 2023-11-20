@@ -8,6 +8,7 @@ const EcoAventura = () => {
   const [showMinijuegos, setShowMinijuegos] = useState(false);
   const [showLecturas, setShowLecturas] = useState(false);
   const [showVideos, setShowVideos] = useState(false);
+  const[showInicioSesion, setInicioSesion] = useState(false);
 
 
   const handleMinijuegosClick = () =>{
@@ -23,8 +24,24 @@ const EcoAventura = () => {
     setShowVideos(true);
   }
 
+  const handleInicioSesionClick = () =>{
+    setInicioSesion(true);
+  }
+
   if(showMinijuegos){
     return <Navigate to = "/seccionjuegos"/>
+  }
+
+  if(showLecturas){
+    return <Navigate to = "/seccionlecturas"/>
+  }
+
+  if(showVideos){
+    return <Navigate to = "/seccionvideos"/>
+  }
+
+  if(showInicioSesion){
+    return <Navigate to ="/inicio"/>
   }
 
   return (
@@ -47,7 +64,7 @@ const EcoAventura = () => {
           </p>
         </div>
         <img className="usuario-name" alt="Usuario name" src="usuario-name.png" />
-        <img className="cerrar-sesion" alt="Cerrar sesion" src="cerrar-sesion.png" />
+        <button class = "boton-sesion" onClick={handleInicioSesionClick}/>
         <div className="overlap-2">
           <div className="seccuib" />
           <img className="imagen-presentacion"/>
