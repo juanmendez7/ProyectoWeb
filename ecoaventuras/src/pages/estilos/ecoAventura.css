@@ -144,6 +144,19 @@
     top: 65px;
     width: 150px;
   }
+
+  .frame .boton-sesion{
+
+    background-image: url('../imagenes/cerrar-sesion.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 38px;
+    left: 1511px;
+    object-fit: cover;
+    position: absolute;
+    top: 65px;
+    width: 150px;
+  }
   
   .frame .overlap-2 {
     height: 314px;

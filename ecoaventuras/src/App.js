@@ -4,6 +4,9 @@ import InicioSesion from './pages/inicioSesion';
 import Registro from './pages/registro';
 import EcoAventura from './pages/paginaPrincipal/ecoAventura';
 import Seccionjuegos from './pages/paginaPrincipal/seccionJuegos';
+import Seccionlecturas from './pages/paginaPrincipal/seccionLecturas';
+import Seccionvideos from './pages/paginaPrincipal/seccionVideos';
+
 
 const App = () => {
   const [isIniciarSesion, setIsIniciarSesion] = useState(true);
@@ -27,6 +30,8 @@ const App = () => {
           <Route path="/ecoaventura" element={<EcoAventura />} />
           <Route path="/" element={<Navigate to="/inicio" />} />
           <Route path ="/seccionjuegos" element = {<Seccionjuegos />}/>
+          <Route path = "/seccionlecturas" element = {<Seccionlecturas/>}/>
+          <Route path ="/seccionvideos" element = {<Seccionvideos/>}/>
         </Routes>
       </div>
     </Router>
