@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate, Link } from 'react-router-dom';
 import InicioSesion from './pages/inicioSesion';
 import Registro from './pages/registro';
-import EcoAventura from './pages/paginaPrincipal/paginaPrincipal';
+import EcoAventura from './pages/paginaPrincipal/ecoAventura';
+import Seccionjuegos from './pages/paginaPrincipal/seccionJuegos';
 
 const App = () => {
   const [isIniciarSesion, setIsIniciarSesion] = useState(true);
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/registro" element={<Registro onAcabarRegistro={handleAcabarRegistro} />} />
           <Route path="/ecoaventura" element={<EcoAventura />} />
           <Route path="/" element={<Navigate to="/inicio" />} />
+          <Route path ="/seccionjuegos" element = {<Seccionjuegos />}/>
         </Routes>
       </div>
     </Router>

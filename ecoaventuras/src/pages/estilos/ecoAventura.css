@@ -1,0 +1,352 @@
+.frame {
+    background-color: #00bf63;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .div {
+    background-color: #00bf63;
+    height: 1968px;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .frame .text-wrapper {
+    color: #ffffff;
+    font-family: "Contrail One-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 784px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 69px;
+    white-space: nowrap;
+    width: 442px;
+  }
+  
+  .frame .overlap {
+    background-color: #ffffff;
+    height: 91px;
+    left: 0;
+    position: absolute;
+    top: 137px;
+    width: 1903px;
+  }
+  
+
+  .frame .boton-juegos{
+    background-image: url('../imagenes/control.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 81px;
+    left: 445px;
+    object-fit: cover;
+    position: absolute;
+    top: 5px;
+    width: 80px;
+  }
+  
+
+  .frame .boton-libros{
+    background-image: url('../imagenes/lecturas.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 81px;
+    left: 956px;
+    object-fit: cover;
+    position: absolute;
+    top: 5px;
+    width: 80px;
+  }
+  
+  .frame .boton-videos{
+    background-image: url('../imagenes/videos.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 81px;
+    left: 1467px;
+    object-fit: cover;
+    position: absolute;
+    top: 5px;
+    width: 80px;
+  }
+  
+  .frame .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Contrail One-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 784px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 17px;
+    white-space: nowrap;
+    width: 442px;
+  }
+  
+  .frame .overlap-group {
+    height: 27px;
+    left: 485px;
+    position: absolute;
+    top: 240px;
+    width: 1046px;
+  }
+  
+  .frame .eco-ed-ventures {
+    color: #ffffff;
+    font-family: "Contrail One-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 442px;
+  }
+  
+  .frame .texto {
+    color: #ffffff;
+    font-family: "Contrail One-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 402px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    width: 644px;
+  }
+  
+  .frame .usuario-name {
+    height: 47px;
+    left: 1226px;
+    object-fit: cover;
+    position: absolute;
+    top: 56px;
+    width: 260px;
+  }
+  
+  .frame .cerrar-sesion {
+    height: 38px;
+    left: 1511px;
+    object-fit: cover;
+    position: absolute;
+    top: 65px;
+    width: 150px;
+  }
+  
+  .frame .overlap-2 {
+    height: 314px;
+    left: 0;
+    position: absolute;
+    top: 306px;
+    width: 1903px;
+  }
+  
+  .frame .seccuib {
+    background-color: #7ed957;
+    height: 180px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1903px;
+  }
+  
+  .frame .imagen-presentacion {
+    background-image: url('../imagenes/introduccion.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 160px;
+    left: 816px;
+    object-fit: cover;
+    position: absolute;
+    top: 8px;
+    width: 367px;
+  }
+  
+  .frame .rectangulo {
+    background-color: #3b643b;
+    height: 135px;
+    left: 0;
+    position: absolute;
+    top: 179px;
+    width: 1903px;
+  }
+  
+  .frame .texto-minijuegos {
+    color: #ffffff;
+    font-family: "Contrail One-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 683px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 240px;
+    width: 644px;
+  }
+  
+  .frame .minijuegos {
+    color: #ffffff;
+    font-family: "Contrail One-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 781px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 201px;
+    white-space: nowrap;
+    width: 442px;
+  }
+  
+  .frame .overlap-group-2 {
+    background-color: #3b643b;
+    height: 135px;
+    left: 0;
+    position: absolute;
+    top: 861px;
+    width: 1903px;
+  }
+  
+  .frame .lecturas {
+    color: #ffffff;
+    font-family: "Contrail One-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 781px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 24px;
+    white-space: nowrap;
+    width: 442px;
+  }
+  
+  .frame .texto-lecturas {
+    color: #ffffff;
+    font-family: "Contrail One-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 683px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 69px;
+    width: 644px;
+  }
+  
+  .frame .overlap-3 {
+    background-color: #3b643b;
+    height: 135px;
+    left: 0;
+    position: absolute;
+    top: 1249px;
+    width: 1904px;
+  }
+  
+  .frame .videos-interactivos {
+    color: #ffffff;
+    font-family: "Contrail One-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 781px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 19px;
+    white-space: nowrap;
+    width: 442px;
+  }
+  
+  .frame .texto-videos {
+    color: #ffffff;
+    font-family: "Contrail One-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 675px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 66px;
+    width: 644px;
+  }
+  
+  .frame .imagen-minijuegos {
+    background-image: url('../imagenes/minijuegos-imagen.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 216px;
+    left: 753px;
+    object-fit: cover;
+    position: absolute;
+    top: 631px;
+    width: 496px;
+  }
+  
+  .frame .imagen-lecturas {
+    background-image: url('../imagenes/lecturas-imagen.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    left: 751px;
+    object-fit: cover;
+    position: absolute;
+    top: 1014px;
+    width: 498px;
+  }
+  
+  .frame .imagen-videos {
+    background-image: url('../imagenes/videos-imagen.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 216px;
+    left: 752px;
+    object-fit: cover;
+    position: absolute;
+    top: 1395px;
+    width: 497px;
+  }
+  
+  .frame .nios-jugando {
+    background-image: url('../imagenes/chicos-jugando.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 238px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 1618px;
+    width: 1904px;
+  }
+  
+  .frame .derechos-reservados {
+    color: #ffffff;
+    font-family: "Contrail One-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 816px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1890px;
+    width: 356px;
+  }
+  
