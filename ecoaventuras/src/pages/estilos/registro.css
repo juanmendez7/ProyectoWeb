@@ -1,0 +1,73 @@
+.container {
+    background-color: #6AC462; /* O el color exacto de verde que necesitas */
+    min-height: 100vh; /* Asegura que el contenedor tome toda la altura de la pantalla */
+    padding: 20px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    
+  }
+  
+  .background-image4{
+    position: absolute; /* Posicionamiento absoluto respecto al contenedor relativo */
+  top: 0; /* Posición superior del contenedor */
+  left: 18.5%; /* Posición izquierda del contenedor */
+  width: 120vh; /* Ancho completo del contenedor */
+  height: 100%; /* Altura completa del contenedor */
+  background-image: url('../imagenes/niñosdemano.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+  }
+
+  
+  .login-box {
+    position: relative;
+    width: 90%;
+    background-color: #fff; /* Fondo blanco para la caja de login */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave para dar profundidad */
+    width: 300px; /* O el ancho que prefieras */
+  }
+  .login-box h1 {
+    color: #333; /* Color de texto para el título */
+    text-align: center;
+  }
+  
+
+  .login-box h2 {
+    color: #333; /* Color de texto para el título */
+    text-align: center;
+  }
+  
+  .login-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-box input {
+    margin-bottom: 10px; /* Espacio entre los inputs */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Bordes redondeados para los inputs */
+  }
+  
+  .login-box button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Color de fondo para el botón */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login-box button:hover {
+    background-color: #45a049; /* Un tono más oscuro al pasar el ratón */
+  }

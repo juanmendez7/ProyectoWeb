@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes, Navigate, Link } from 'react-router-dom';
+import InicioSesion from './pages/inicioSesion';
+import Registro from './pages/registro';
+import EcoAventura from './pages/paginaPrincipal/paginaPrincipal';
 
-function App() {
+const App = () => {
+  const [isIniciarSesion, setIsIniciarSesion] = useState(true);
+
+  const handleIniciarSesion = () => {
+    console.log('Iniciando sesión...');
+    setIsIniciarSesion(false);
+  };
+
+  const handleAcabarRegistro = () => {
+    console.log('Registro completado.');
+    setIsIniciarSesion(false);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/inicio" element={<InicioSesion onIniciarSesion={handleIniciarSesion} onRegistrarse={() => setIsIniciarSesion(false)} />} />
+          <Route path="/registro" element={<Registro onAcabarRegistro={handleAcabarRegistro} />} />
+          <Route path="/ecoaventura" element={<EcoAventura />} />
+          <Route path="/" element={<Navigate to="/inicio" />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
+
+
